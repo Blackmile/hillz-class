@@ -1,0 +1,35 @@
+.sidebar {
+    background-color: #2d1b91;
+    border-radius: 20px 0 0 20px;    
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+    color: white;
+}
+
+.sidebar_header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sidebar_header > h4 {
+    font-size: medium;
+    font-weight: 800;
+}
+
+.sidebar_body {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sidebar_bodyContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar_bodyDetails {
+    margin-top: 90px;
+    align-items: center;
+}
