@@ -17,10 +17,18 @@ function SideBar() {
               <div className='sidebar_bodyContainer'>
                 <AccountCircleIcon fontSize='large' />
                 <div className='sidebar_bodyDetails'>
-                    <PersonIcon fontSize='small' /><p>profile details</p>
-                    <AssignmentIcon fontSize='small' /><p>Home task</p>
-                    <EventAvailableIcon /><p>schedule</p>
-                    <ChatIcon /><p>chat</p>
+                    <div className='details'>
+                        <PersonIcon fontSize='small'/><span>profile details</span>
+                    </div>
+                    <div className='details'>
+                        <AssignmentIcon fontSize='small' /><span>Home task</span>
+                    </div>
+                    <div className='details'>
+                        <EventAvailableIcon /><span>schedule</span>
+                    </div>
+                    <div className='details'>
+                        <ChatIcon /><span>chat</span>
+                    </div>
                 </div>
               </div>
           </div>

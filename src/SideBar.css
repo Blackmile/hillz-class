@@ -27,9 +27,21 @@
 .sidebar_bodyContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .sidebar_bodyDetails {
+    display: flex;
+    flex-direction: column;
     margin-top: 90px;
-    align-items: center;
+    justify-content: space-around;
+}
+
+.details {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.details > span {
+    padding-left: 20px;
 }
