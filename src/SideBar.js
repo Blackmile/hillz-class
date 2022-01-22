@@ -18,7 +18,7 @@ function SideBar() {
                 <AccountCircleIcon fontSize='large' />
                 <div className='sidebar_bodyDetails'>
                     <div className='details'>
-                        <PersonIcon fontSize='small'/><span>profile details</span>
+                        <PersonIcon fontSize='small'/><span>My profile</span>
                     </div>
                     <div className='details'>
                         <AssignmentIcon fontSize='small' /><span>Home task</span>
