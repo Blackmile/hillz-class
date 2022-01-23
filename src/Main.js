@@ -34,7 +34,7 @@ function Main() {
 
           <div className='main_body'>
             <div className='timer'>
-              <span>9:00 - 9:45</span>
+              <span>9:00 <hr /> 9:45</span>
             </div>
             <div className='class'>
               <ClassDetails />

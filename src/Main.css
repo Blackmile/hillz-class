@@ -11,6 +11,7 @@
     align-items: center;
     border-bottom: 3px solid lightgrey;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .main_headerRight {
@@ -74,3 +75,17 @@
     display: flex;
 }
 
+.timer {
+    margin-right: 50px;
+    background-color: rgb(214, 214, 214);
+    width: 30px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    align-items: center;
+    padding: 30px;
+}
+
+.main_footer {
+    margin-top: 45vh;
+    align-self: center;
+}
