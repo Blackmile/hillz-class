@@ -11,9 +11,11 @@ function ClassDetails() {
           </div>
 
           <div className='class_details_content'>
-              <p>Mathematics</p>
+              <h3>Mathematics</h3>
               <p>matrix</p>
-              <button type='submit'> start class</button>
+          </div>
+          <div className='btn'>
+            <button type='submit'> start class</button>
           </div>
       </div>
   );
