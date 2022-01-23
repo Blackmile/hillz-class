@@ -2,6 +2,7 @@ import React from 'react';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import './Main.css'
 import { Avatar, AvatarGroup } from '@mui/material';
+import ClassDetails from './ClassDetails';
 
 function Main() {
   const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -33,11 +34,15 @@ function Main() {
 
           <div className='main_body'>
             <div className='timer'>
-              this is the class time
+              <span>9:00 - 9:45</span>
             </div>
-            <div className='class_details'>
-              this is the class details
+            <div className='class'>
+              <ClassDetails />
             </div>
+          </div>
+
+          <div className='main_footer'>
+            this is the foooter
           </div>
       </div>
   );
