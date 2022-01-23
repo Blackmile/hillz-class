@@ -1,7 +1,7 @@
 .class_details {
     display: flex;
     background-color: white;
-    width: 100%;
+    width: 50vw;
     padding: 10px;
     margin-right: 80px;
     border-radius: 20px;
@@ -11,11 +11,33 @@
 .class_details_info {
     display: flex;
     align-content: center;
-    width: 50px;
+    max-width: 50px;
     flex-wrap: wrap;
+    margin-right: 50px;
 }
 
 .class_details_content {
-    display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.class_details_content > h3 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.class_details_content > p {
+    font-size: small;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: -30px;
+}
+
+.btn {
+    margin-top: 60px;
+}
+
+.btn > button {
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgb(125, 187, 64);
 }
