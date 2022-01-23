@@ -1,0 +1,21 @@
+.class_details {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    margin-right: 80px;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+.class_details_info {
+    display: flex;
+    align-content: center;
+    width: 50px;
+    flex-wrap: wrap;
+}
+
+.class_details_content {
+    display: flex;
+    justify-content: space-between;
+}
