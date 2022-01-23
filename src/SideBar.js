@@ -34,7 +34,7 @@ function SideBar() {
           </div>
 
           <div className='sidebar_footer'>
-              this is a quote
+              <p>this is a qutoe ypu shouldn't forget</p>
           </div>
       </div>
   );

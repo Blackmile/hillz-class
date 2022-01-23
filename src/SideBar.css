@@ -45,3 +45,16 @@
 .details > span {
     padding-left: 10px;
 }
+
+.sidebar_footer {
+    margin-top: 20vh;
+    margin-left: 20px;
+    background-color: gray;
+    width: 150px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+.sidebar_footer > p {
+    padding-left: 10px;
+}
