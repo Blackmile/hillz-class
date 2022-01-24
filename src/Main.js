@@ -2,9 +2,8 @@ import React from 'react';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import './Main.css'
 import { Avatar, AvatarGroup } from '@mui/material';
-import ClassDetails from './ClassDetails';
 
-function Main() {
+function Main({ classDetails }) {
   const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   const d = new Date();
 
@@ -33,14 +32,32 @@ function Main() {
           </div>
 
           <div className='main_body'>
-            <div className='timer'>
-              <span>9:00 <hr /> 9:45</span>
-            </div>
-            <div className='class'>
-              <ClassDetails />
-            </div>
-          </div>
+            {classDetails.map((classDetail) => (
+              <div className='timer'>
+                <span>{classDetail.timeStart} <hr /> {classDetail.timeStop}</span>
+              </div>
+            ))}
 
+            {classDetails.map((classDetail) => (
+              <div className='class'>
+                <div className='class_details'>
+                  <div className='class_details_info'>
+                      <Avatar src={classDetail.userImg} />
+                      <p> {classDetail.userName} </p>
+                  </div>
+  
+                  <div className='class_details_content'>
+                      <h3> {classDetail.subject} </h3>
+                      <p> {classDetail.topic} </p>
+                  </div>
+                  <div className='btn'>
+                    <button type='submit'> start class</button>
+                  </div>
+                </div>
+              </div>
+            ))}
+
+          </div>
           <div className='main_footer'>
             this is the foooter
           </div>
