@@ -72,22 +72,29 @@
 }
 
 .main_body {
-    display: flex;
+    display: grid;
+    overflow: auto;
 }
 
 .timer {
     margin-right: 50px;
     background-color: rgb(214, 214, 214);
     width: 30px;
-    flex-wrap: wrap;
+    flex: 0.35;
     border-radius: 20px;
     align-items: center;
     padding: 30px;
 }
 
 .main_footer {
-    margin-top: 45vh;
+    margin-top: 40px;
     align-self: center;
+}
+
+.class {
+    display: flex;
+    flex: 0.75;
+    margin-bottom: 30px;
 }
 
 .class_details {

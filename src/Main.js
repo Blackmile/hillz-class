@@ -33,13 +33,11 @@ function Main({ classDetails }) {
 
           <div className='main_body'>
             {classDetails.map((classDetail) => (
-              <div className='timer'>
-                <span>{classDetail.timeStart} <hr /> {classDetail.timeStop}</span>
-              </div>
-            ))}
-
-            {classDetails.map((classDetail) => (
               <div className='class'>
+                <div className='timer'>
+                  <span>{classDetail.timeStart} <hr /> {classDetail.timeStop}</span>
+                </div>
+
                 <div className='class_details'>
                   <div className='class_details_info'>
                       <Avatar src={classDetail.userImg} />
